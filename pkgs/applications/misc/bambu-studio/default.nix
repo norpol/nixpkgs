@@ -12,6 +12,7 @@
 , dbus
 , eigen
 , expat
+, gcc-unwrapped
 , glew
 , glfw
 , glib
@@ -74,6 +75,7 @@ stdenv.mkDerivation rec {
     dbus
     eigen
     expat
+    gcc-unwrapped
     glew
     glfw
     glib
