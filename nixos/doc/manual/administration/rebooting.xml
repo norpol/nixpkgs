@@ -18,6 +18,7 @@
 </screen>
   which is equivalent to <command>systemctl reboot</command>. Alternatively, you can quickly reboot the system using <literal>kexec</literal>, which bypasses the BIOS by directly loading the new kernel into memory:
 <screen>
+# systemctl start prepare-kexec
 # systemctl kexec
 </screen>
  </para>
